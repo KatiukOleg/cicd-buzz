@@ -20,4 +20,4 @@ def test_sample_multiple_words():
 
 def test_generatebuzz_of_at_least_five_words():
     phrase = generator.generate_buzz()
-    assert len(phrase.split()) >= 4
+    assert len(phrase.split()) >= 5
